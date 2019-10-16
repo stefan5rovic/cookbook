@@ -26,3 +26,4 @@
 - git push -u `<remote_name>` `<branch_name>`
 - git push
 - git clone `<URL>`
+- git pull
