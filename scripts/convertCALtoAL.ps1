@@ -1,0 +1,2 @@
+﻿$credential = New-Object pscredential 'stefan', (ConvertTo-SecureString -String 'stefan' -AsPlainText -Force)
+Convert-ModifiedObjectsToAl -containerName "stefan" -sqlCredential $credential -startId 50100 -alProjectFolder "C:\Users\Stefan\Documents\AL\Reward project"
